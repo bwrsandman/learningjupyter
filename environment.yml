@@ -1,0 +1,11 @@
+name: learningjupyter
+channels:
+  - QuantStack
+  - conda-forge
+dependencies:
+  - python
+  - xeus-cling
+  - numpy
+  - pip:
+    - pillow
+    - octave_kernel
